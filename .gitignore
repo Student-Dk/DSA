@@ -1,0 +1,21 @@
+# Executable files
+*.exe
+*.out
+*.app
+
+# Compiled files
+*.class
+*.o
+
+# VS Code settings
+.vscode/
+
+# Node modules (agar JS use kar rahe ho)
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
