@@ -34,10 +34,10 @@ int main() {
 //Q3 sum of n even numbers
 
 
-int n;
+// int n;
 
-cout<<"enter number ";
-cin>>n;
+// cout<<"enter number ";
+// cin>>n;
 //Approach 1;
 // int i=1,sum=0;
 // while(i<=n){
@@ -58,7 +58,37 @@ cin>>n;
 //Approach 3 direct using formula
 
 
-cout<<"sum of 1 to "<<n<<" even numbers: "<< n*(n+2)/4;
+//cout<<"sum of 1 to "<<n<<" even numbers: "<< n*(n+2)/4;
+
+// q4 prime number or not
+
+// int n;
+// cout<<"enter number ";
+// cin>>n;
+//Approach  1
+
+//int i=2;
+// while(i<n){
+//     if(n%i==0){
+//         cout<<n<<" is not prime number";
+//         return 0;
+//     }
+//     i=i+1;
+// }
+
+//Approach 2
+
+// int i=2;
+// while(i<n/2){
+//  if(n%i==0){
+//         cout<<n<<" is not prime number";
+//         return 0;
+//     }
+
+//     i++;
+// }
+
+// cout<<n<<" is prime number";
 
 
     return 0;
