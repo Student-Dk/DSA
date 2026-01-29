@@ -19,7 +19,7 @@ int main()
     //   float p,r,t,si;
     //  cout<<"give the value of P,R and T";
     //  cin>>p>>r>>t;
-    //  cout<<"Si is "<<p*r*t;
+    //  cout<<"Si is "<<(p*r*t)/100.0;
     // Q2 Finde largest of 3 numbers
     //     int a,b,c;
     //     cout<<"enter three numberrs ";
@@ -57,22 +57,22 @@ int main()
     // 4 5 6
     // 7 8 9 10
 
-    int n;
-    cout<<"enter number ";
-    cin>>n;
-    int r=1;
-    int count=1;
-    while(r<=n){
-          int c=1;
-        while (c<=r){
-            cout<<count<<" ";
-            c++;
-            count++;
-        }
+    // int n;
+    // cout<<"enter number ";
+    // cin>>n;
+    // int r=1;
+    // int count=1;
+    // while(r<=n){
+    //       int c=1;
+    //     while (c<=r){
+    //         cout<<count<<" ";
+    //         c++;
+    //         count++;
+    //     }
        
-        cout<<endl;
-        r++;
-    }
+    //     cout<<endl;
+    //     r++;
+    // }
 
     return 0;
 }
