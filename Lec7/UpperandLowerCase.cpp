@@ -29,8 +29,10 @@ int main(){
     cin>>ch;
     if(ch>='A' and ch<='Z'){
         cout<<"Uppercase";
-    }else{
+    }else if(ch>='a' && ch<='z'){
         cout<<"lowercase";
+    }else{
+        cout<<"Invalid";
     }
     //int x=ch ;// Get the ascii value of the character bucket
 
