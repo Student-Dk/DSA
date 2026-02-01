@@ -22,7 +22,7 @@ int main()
 
     // Whitespace : [ ' ' , '\n' , '\t']
 
-    int digits = 0, alpha = 0, spaces = 0, special = 0;
+    int digits = 0, alpha = 0, spaces = 0, special = 0,words=1,lines=0;
 
     char ch;
     ch = cin.get();// will take input of white space characters as well as but cin ignor whitespace characters
@@ -41,6 +41,10 @@ int main()
         else if (ch == ' ' || ch == '\n' || ch == '\t')
         {
             spaces++;
+            words++;
+        }
+        else if(ch=='.'){
+            lines++;
         }
         else
         {
@@ -53,6 +57,8 @@ int main()
     cout << "Alpha" << alpha << endl;
     cout << "spaces" << spaces << endl;
     cout << "special" << special << endl;
+    cout << "Words"<<words<<endl;
+    cout<<"Lines"<<lines<<endl;
 
     // Q2  Modify the above to print total number of digits, whitespaces, alphabets
     // and other characters till you read a $
