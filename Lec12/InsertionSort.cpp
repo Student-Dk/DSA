@@ -8,7 +8,7 @@ int main(){
     int j;
     for(int i=1;i<n;i++){
         int hpc=a[i];
-        for(j=i-1; a[j]>hpc && j>=0;j--){
+        for(j=i-1; j>=0 && a[j]>hpc;j--){
             a[j+1]=a[j];
         }
 
