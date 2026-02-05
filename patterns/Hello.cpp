@@ -90,14 +90,63 @@ int main() {
 
 // cout<<n<<" is prime number";
 
-int n;
-cin>>n;
-int rev=0;
-while(n>0){
-    rev=rev*10 + n%10;
-    n=n/10;
+// int n;
+// cin>>n;
+// int rev=0;
+// while(n>0){
+//     rev=rev*10 + n%10;
+//     n=n/10;
+// }
+// cout<<rev;
+
+//bubble sort
+
+
+//bubble sort;
+// int i;
+// for(i=0;i<n-1;i++){
+//     int sc=0;
+// for(int j=0;j<n-i-1;j++){
+//     if(a[j]>a[j+1]){
+        
+//         swap(a[j],a[j+1]);
+//         sc++;
+//     }
+// }
+
+// if(sc==0){
+//     break;
+// }
+// }
+
+//selection sort;
+
+// i=0;
+// for(i=0;i<n-1;i++){
+// int mi=i;
+// for(j=i+1;j<n;j++){
+//     if(a[mi]>a[j]){
+//         mi=j;
+//     }
+// }
+
+
+//     swap(a[i],a[mi]);
+
+// }
+
+
+int a[]={5,4,3,2,1};
+int n=sizeof(a)/sizeof(int);
+int i,j;
+// Insertion sort
+int hpc=1;
+
+
+
+for(int i=0;i<n;i++){
+    cout<<a[i]<<" ";
 }
-cout<<rev;
 
 
     return 0;
