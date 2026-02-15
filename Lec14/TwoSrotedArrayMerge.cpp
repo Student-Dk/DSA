@@ -34,6 +34,8 @@ void mergeSortedArrays(int a[],int m, int b[],int n){
     }
 }
 
+
+
 int main(){
  int a[7] ={3,5,7,9};
  int m=4;
